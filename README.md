@@ -23,20 +23,26 @@
     },
     ```
 * 3、配置mongodb
-    ```cd /usr/local```
-    ``` curl -O https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-4.0.6.tgz```
-    ```tar -zxvf mongodb-osx-ssl-x86_64-4.0.6.tgz```
-    ```sudo mv mongodb-osx-x86_64-4.0.6 mongodb```
-    ```sudo mkdir -p /data/db```
+    ```javascript 
+        cd /usr/local
+        curl -O https://fastdl.mongodb.org/osx/mongodb-osx-ssl-x86_64-4.0.6.tgz
+        tar -zxvf mongodb-osx-ssl-x86_64-4.0.6.tgz
+        sudo mv mongodb-osx-x86_64-4.0.6 mongodb
+        sudo mkdir -p /data/db
+    ```
 
     //启动数据库
-    ```sudo mongod```
+    ```javascript 
+        sudo mongod
+    ```
 
     //连接数据库
 
-    ```cd /usr/local/mongodb/bin```
+    ```javascript 
+        cd /usr/local/mongodb/bin
 
-    ```./mongo```
+        ./mongo
+    ```
 
 
 
